@@ -40,7 +40,7 @@ python acting.py <agent_id:int> <ntask:int> <without_policy:True|False>
 ```
 
 - `agent_id`: Identifier for the agent, used for saving outputs.
-- `ntask`: Task identifier (e.g., graph prediction variant).
+- `ntask`: Task identifier (e.g., 0 : 2 path, 1 : 3 path, 2 : 4 path, 3 : 5 path, 4 : 6 path).
 - `without_policy`: Boolean flag to disable loading a pretrained grammar model.
 
 **Example**:
